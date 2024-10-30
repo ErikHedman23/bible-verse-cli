@@ -15,7 +15,7 @@ async function fetchRandomVerse() {
         const verse = response.data;
 
         console.log(`"${verse.text}" - ${verse.reference}`);
-    }catch(error) {
+    } catch(error) {
         console.log("Error fetching verse");
     }
 }
