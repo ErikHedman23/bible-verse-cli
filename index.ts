@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+//This is using the random verse API from bible-api.com
+
 import axios from 'axios';
 
 interface BibleVerse {
